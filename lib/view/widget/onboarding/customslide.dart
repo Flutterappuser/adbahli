@@ -11,6 +11,7 @@ class CustomSliderOnBoarding extends GetView<OnBoardingControllerImp> {
   @override
   Widget build(BuildContext context) {
     return PageView.builder(
+        controller: controller.pageController,
         onPageChanged: (value) {
           controller.onPageChanged(value);
         },
