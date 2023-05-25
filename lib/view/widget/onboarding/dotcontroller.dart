@@ -22,7 +22,7 @@ class CustomDotControllerOnBoarding extends GetView<OnBoardingControllerImp> {
                     width: controller.current_page == index ? 20 : 6,
                     height: 6,
                     decoration: BoxDecoration(
-                        color: AppColor.primaryColor,
+                        color: Color.fromARGB(255, 51, 49, 53),
                         borderRadius: BorderRadius.circular(10)),
                   ))
         ],

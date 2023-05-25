@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "626901697304",
+    "project_id": "dabahapp",
+    "storage_bucket": "dabahapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626901697304:android:f971a108227e21965c946d",
+        "android_client_info": {
+          "package_name": "com.dabah.adbahli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626901697304-5vdi30nb5l4vk1l8a11d4h7m28u2tgn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARtFMunHwyyUMXRbZf2NhJ_nSsHshwZA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626901697304-5vdi30nb5l4vk1l8a11d4h7m28u2tgn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

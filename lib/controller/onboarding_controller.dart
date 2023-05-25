@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
+import '../core/constant/routes.dart';
 import '../data/datasource/static/static.dart';
 
 abstract class OnBoardingController extends GetxController {
@@ -16,8 +17,7 @@ class OnBoardingControllerImp extends OnBoardingController {
     current_page++;
     if (current_page > onBoardingList.length - 1) {
       current_page = 0;
-      pageController.animateToPage(current_page,
-          duration: Duration(milliseconds: 500), curve: Curves.ease);
+      Get.offAllNamed(AppRoute.chooseRole);
     } else {
       pageController.animateToPage(current_page,
           duration: Duration(milliseconds: 500), curve: Curves.ease);

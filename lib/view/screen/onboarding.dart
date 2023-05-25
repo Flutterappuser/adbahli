@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import '../widget/onboarding/custombutton.dart';
 import '../widget/onboarding/customslide.dart';
 import '../widget/onboarding/dotcontroller.dart';
+import 'auth/animatedhover.dart';
 
 class OnBoarding extends StatelessWidget {
   const OnBoarding({Key? key}) : super(key: key);
@@ -12,11 +13,11 @@ class OnBoarding extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Get.put(OnBoardingControllerImp());
-    return const Scaffold(
+    return Scaffold(
         backgroundColor: Colors.white,
         body: SafeArea(
           child: Column(children: [
-            Expanded(
+            const Expanded(
               flex: 3,
               child: CustomSliderOnBoarding(),
             ),
@@ -26,7 +27,7 @@ class OnBoarding extends StatelessWidget {
                   children: [
                     CustomDotControllerOnBoarding(),
                     Spacer(flex: 2),
-                    CustomButtonOnBoarding()
+                    CustomButtonOnBoarding(),
                   ],
                 ))
           ]),
